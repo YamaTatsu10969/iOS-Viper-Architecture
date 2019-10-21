@@ -350,7 +350,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Viper-Architecture/Pods-iOS-Viper-Architecture-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-iOS-Viper-Architecture/Pods-iOS-Viper-Architecture-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
@@ -367,7 +367,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-Viper-Architecture/Pods-iOS-Viper-Architecture-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS-Viper-Architecture/Pods-iOS-Viper-Architecture-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		890F79F19AD699F69D2FB509 /* [CP] Check Pods Manifest.lock */ = {

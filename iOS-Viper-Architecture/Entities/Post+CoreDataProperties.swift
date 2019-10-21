@@ -11,7 +11,7 @@ import CoreData
 
 
 extension Post {
-
+    // @nonobjc public class はなくてもビルド通った。なんだろう。
     @nonobjc public class func fetchRequest() -> NSFetchRequest<Post> {
         return NSFetchRequest<Post>(entityName: "Post");
     }
